@@ -1,0 +1,8 @@
+ultralytics
+tidecv
+pycocotools
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn

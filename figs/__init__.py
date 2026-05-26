@@ -1,0 +1,1 @@
+# Placeholder for figs directory

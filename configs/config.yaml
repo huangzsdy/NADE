@@ -1,0 +1,24 @@
+# BeyondMap Project Configuration
+# Optimized for CPU execution on laptop with 8GB RAM and no GPU
+
+# Hardware Settings
+device: cpu
+batch_size: 1
+num_workers: 0
+pin_memory: false  # Not needed for CPU
+
+# Training Settings
+learning_rate: 0.001
+num_epochs: 10
+gradient_accumulation_steps: 1  # Effective batch size = batch_size * gradient_accumulation_steps
+
+# Mixed Precision (disabled for CPU)
+use_amp: false
+
+# Memory Optimization
+enable_gradient_checkpointing: false
+low_memory_mode: true
+
+# Logging
+log_interval: 10
+save_interval: 100
