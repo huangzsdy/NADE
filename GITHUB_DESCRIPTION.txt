@@ -1,0 +1,27 @@
+# =====================================================
+# GITHUB REPOSITORY DESCRIPTION
+# =====================================================
+# Copy the content below into your GitHub repository
+# settings under "Description" field.
+
+Noise-Aware Object Detection Framework - Research platform for evaluating detection models under noisy annotation conditions with support for multiple noise types (Jitter, Missing, Flip, Ghost) and comprehensive evaluation metrics (TIDE, AP-IoU).
+
+# =====================================================
+# SHORTER VERSION (forcompact display)
+# =====================================================
+
+Noise-Aware Detection Framework for evaluating object detection models under noisy annotations
+
+# =====================================================
+# TOPICS/TAGS (copy to GitHub Topics)
+# =====================================================
+
+object-detection
+machine-learning
+noise-label
+yolo
+evaluation-framework
+computer-vision
+research-tool
+tide
+ap-iou
